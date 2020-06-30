@@ -10,5 +10,33 @@
   <%= @book.description %>
 </p>
 
+<p>
+  <strong>Author:</strong>
+  <%= @book.author %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @book.category %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @book.picture %>
+</p>
+
+<p>
+  <strong>Amazon:</strong>
+  <%= @book.amazon_url %>
+</p>
+
+<p>
+  <strong>Amazon:</strong>
+  <%= @book.language %>
+</p>
+
+
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>
+<br>
+<a href="#">ajouter à ma bibliotheque</a>

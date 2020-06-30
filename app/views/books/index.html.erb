@@ -16,6 +16,11 @@
       <tr>
         <td><%= book.title %></td>
         <td><%= book.description %></td>
+        <td><%= book.author %></td>
+        <td><%= book.category %></td>
+        <td><%= book.picture %></td>
+        <td><%= book.amazon_url %></td>
+        <td><%= book.language %></td>
         <td><%= link_to 'Show', book %></td>
         <td><%= link_to 'Edit', edit_book_path(book) %></td>
         <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
